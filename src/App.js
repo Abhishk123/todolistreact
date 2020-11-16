@@ -46,7 +46,7 @@ function handleAddTodo(e){
     <TodoList todos={todos} toggelTodo={toggelTodo}/>
     <input ref={todoNameRef} type='text'/>
     <button onClick={handleAddTodo}>Add Todo!</button>
-  <button onClick={handleClearTodos}>Clear completed Todo</button>
+  <button onClick={handleClearTodos}>Clear completed Todo!!</button>
   <div> {todos.filter(todo => !todo.complete).length} left to do</div>
     </>
   )
